@@ -7,7 +7,7 @@ public class App {
         Scanner leitor = new Scanner(System.in);
         
         
-        Pessoa objetoPessoa = new Pessoa();
+        Pessoa objetoPessoa = new Pessoa(70.0f, 1.70f);
         float imc;
         
         System.out.print("Digite o peso da pessoa: ");

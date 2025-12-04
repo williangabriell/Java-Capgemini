@@ -5,6 +5,12 @@ public class Pessoa {
     //Atributos
    private float peso;
    private float altura;
+   
+   // Métodos construtores
+   public Pessoa(float peso, float altura){
+       this.peso = peso;
+       this.altura = altura;       
+   }
     
     //Método
     public float calcularIMC() {
